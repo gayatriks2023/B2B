@@ -1,0 +1,146 @@
+{
+    "html_attributions": [],
+    "result": {
+        "address_components": [
+            {
+                "long_name": "New York",
+                "short_name": "New York",
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "New York",
+                "short_name": "NY",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        ],
+        "adr_address": "<span class=\"locality\">New York</span>, <span class=\"region\">NY</span>, <span class=\"country-name\">USA</span>",
+        "formatted_address": "New York, NY, USA",
+        "geometry": {
+            "location": {
+                "lat": 40.7127753,
+                "lng": -74.0059728
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 40.91757705070789,
+                    "lng": -73.70027206817629
+                },
+                "southwest": {
+                    "lat": 40.47739906045452,
+                    "lng": -74.25908991427882
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "New York",
+        "photos": [
+            {
+                "height": 4000,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100272410405720072384\">Dov Maisel</a>"
+                ],
+                "photo_reference": "Aap_uEAAk8lsaveW0lTL1Q4naJO3XD84EoFISeHGlVb_ERaPk46Kyz6-3dB55xxckra4TrGPFapZfNryfYSxU9Pv8vaUTmR-yp43MqclG1yiXdWFRWARwKjl9_aJdvqWSw_Ai7dGQZDGyVTmdiSXkdhesZDw_KVM0nDh1nVjqzLVtuKf3sa1",
+                "width": 3000
+            },
+            {
+                "height": 412,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100630101836061419842\">ali ahamed</a>"
+                ],
+                "photo_reference": "Aap_uEBEwgdm3wmImNok5D2JFUc4SGB9Gi3gXaJs7SxQwhXolUtYVC23tJFV1wXQ-eRHqjw5b6uNuDlR5yDGAOxJiclY74yIDMY8j_2KF-wzJlC3pkW229tLzPua3BOg9MMTlLl2rPbmMfI9R2wPB4WBMBejdLOEEERUvPLEuNi6LOuJrq8i",
+                "width": 550
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108730284959684034787\">Rosie Noa</a>"
+                ],
+                "photo_reference": "Aap_uEC1AtBV4uHiVyqFmRBvr5LhgdjzWO_I_WVX_AaZd_Vmf1Z-0sI8x3NYdEQHCORDd7UgC0s6Ht8GlovvDhiUIiCMjWcFn9VLxXsZppmWLAHc629BM9gPsNQ-GCrdT1wkypgjkMkY2CCIyj3ouuT874IXz0zepv9Sbx38B7WyZSFhGeZD",
+                "width": 4032
+            },
+            {
+                "height": 547,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100457509154924734155\">Ryan Lalani</a>"
+                ],
+                "photo_reference": "Aap_uEAGIRedGIHRHrX1hzluGI9t4UhBr7vw0XIJTnFfU-jf8xCfpDC9VTIdD5EAkSeHkBc_ZCb6Z_0MzFd1CYbSY0BGeKk1yd0j2Jq68Rs1padC0tjnRofo2UFiR3ycHPiyAwszNouAxNsDU64iivha6nShZRnJK9afHhV89c-AK_6adlaB",
+                "width": 828
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117770645031395487280\">Nazmi Yazid</a>"
+                ],
+                "photo_reference": "Aap_uEAIYDEc6dixmwJaO3U223OmFMDabqJO_UDy7_XC1q2mmjRGiFOQEwlEMl13_WmcQ3upd3oYNwUcq8HdnyAXp9gKnFYwFc9m2YdS9up16l9BpQ_eRkPr2gfaL1eWDVROfVL6146T5nw1l27JaV7ORzSLXkvQu-Yr6BWnbnDlBH142r76",
+                "width": 4032
+            },
+            {
+                "height": 1334,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/104735590814239688370\">The Maruca Group</a>"
+                ],
+                "photo_reference": "Aap_uECCPE3e7nB1xBuTsl-qxw04dARDqjLnO5Eg7rdhylj70nVbh-QYr2-q57DtXDxYlgcnIVa_4AJbweLeGeUicBUb6l1nqJaXEFSQtA21-pPBbd1PleTjUlDhSjvf7JbAKrpKF-evxvQjFhyBSzE6elhgXaQOcULKbChwal2bqONsOZBa",
+                "width": 2000
+            },
+            {
+                "height": 2880,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107620462878197829243\">Md Moniruzzaman</a>"
+                ],
+                "photo_reference": "Aap_uEAr-zdGDqFLUrk5_EczuufAAZH7mOgepZpAE0fPmiCD5t9pXnUe6ybc2RA5bW5I6NPRTzp88SLjAEtfuy3HrjmMfcBkdWnbV_qORFMDwsJ6e_ZdStw0o5m5k7sjEHp_xcMZMkJ_k8BGCL-974uTPgcRtUaK4Shx00MGruzVLlHYgu1a",
+                "width": 5936
+            },
+            {
+                "height": 1200,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103742593926923314457\">Masaki Matsubayashi</a>"
+                ],
+                "photo_reference": "Aap_uEBD1LFySF7PYBSbJ-j9LIbkyYu5oUpYawBp0jd6HV-9e2THe8kKhmdo2Hl7X5czqHp9TWQhm0KRWDjAjPhy8gOiSRWcrHCGeA5FGyKMhzvjy42wYk_DC9mkxLaPbiBa9vOF5zba0dLRf2gcC_-PHMRGiX3UlqfIt5TM9NdyH2wpqkc4",
+                "width": 1600
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113722060057970307969\">Jess Stiles</a>"
+                ],
+                "photo_reference": "Aap_uEDb7Ok3riUHJAvwRkhtRghsxQSvEJJsRW0tN-zVWwyzXAO51DHzDCUXTwCpOxk8T2kzy4X1_W9L42sra8nSRGJ1v6mfWS4rRvjmE7Tbo5xvb8ySJLPs219JLAzSzE6bAzgS6vDGXKk5v5XOVCCbJFm1HeSSPEp8NpyyFLjTr9vmpTjN",
+                "width": 4032
+            },
+            {
+                "height": 3456,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101515675724555673399\">Teodora Tastaman</a>"
+                ],
+                "photo_reference": "Aap_uEDcFG7v9GJ1TVMEbK8gYXdvWckQ6jraIKe7S70GCpLINX-E_o8s61VoDV6cPSBieBGI2A1VJ3fUWjT5EMxzV5CW6lfAutNFrvUHTe7K5NIxP36LP1eqSSFWwk4KTNUHoPk_EcSZYRcvWqOiIPEBvtlm5HXVgq93wqdMMUguMd47zw20",
+                "width": 4608
+            }
+        ],
+        "place_id": "ChIJOwg_06VPwokRYv534QaPC8g",
+        "reference": "ChIJOwg_06VPwokRYv534QaPC8g",
+        "types": [
+            "locality",
+            "political"
+        ],
+        "url": "https://maps.google.com/?q=New+York,+NY,+USA&ftid=0x89c24fa5d33f083b:0xc80b8f06e177fe62",
+        "utc_offset": -300,
+        "vicinity": "New York",
+        "website": "http://www.nyc.gov/"
+    },
+    "status": "OK"
+}

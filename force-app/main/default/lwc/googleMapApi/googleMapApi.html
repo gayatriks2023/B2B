@@ -1,0 +1,133 @@
+<template>
+
+    <div class="container">
+        <template if:true={isShowSpinner}>
+            <div class="backgroundInverse">
+                <lightning-spinner alternative-text="Loading"></lightning-spinner>
+            </div>
+        </template>
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-size_1-of-1">  
+                <div class="main-title">
+                    Google Distance/Rate Calculator
+                </div>              
+            </div>
+        </div>
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-size_1-of-1">  
+                <div class="user-title">
+                   Hello 
+                </div>              
+            </div>
+        </div>
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-size_1-of-1">  
+                <article class="slds-card" style="display: block;">
+                    <div class="slds-grid slds-wrap">
+                        <div class="slds-col slds-size_4-of-12">                    
+                            <lightning-button-group style="width: 100%;">
+                                <div style="width:100%; margin-left: 15px;"
+                                    class="searchDiv slds-form-element__control slds-input-has-icon slds-input-has-icon_left">
+                                    <span style="padding-top: 4%;" class="slds-icon slds-input__icon slds-icon-text-default">
+                                        <img src={locationIcon} />
+                                    </span>
+                                    <lightning-input name="Origin Address" 
+                                                        class="origin-location" 
+                                                        type="text"
+                                                        label="Origin Address" 
+                                                        placeholder="City, State..." 
+                                                        value={originLocation} 
+                                                        onchange={handleOriginLocationChange}                                                        
+                                                        onkeydown={hanldeOnOriginLocationKeyDown}>
+                                    </lightning-input>
+                                        <template if:true={hideOriginLocationResults}> 
+                                        <div id="myInputautocomplete-list" class="autocomplete-items">
+                                            <template for:each={predictions} for:item=prediction>
+                                                <div key={prediction.place_id} 
+                                                        onclick={handleOriginGetPlaceDetails} 
+                                                        data-idex={index}
+                                                        data-name={prediction.place_id}>
+                                                    <span style="pointer-events: none;" class="location-item">{prediction.description}</span>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </template>
+                                </div>
+                            </lightning-button-group>
+                        </div>
+                        <div class="slds-col slds-size_4-of-12">                    
+                            <lightning-button-group style="width: 100%;">
+                                <div style="width:100%; margin-left: 15px;"
+                                    class="searchDiv slds-form-element__control slds-input-has-icon slds-input-has-icon_left">
+                                    <span style="padding-top: 4%;" class="slds-icon slds-input__icon slds-icon-text-default">
+                                        <img src={locationIcon} />
+                                    </span>
+                                    <lightning-input name="Destination Address" 
+                                                        class="destination-location" 
+                                                        type="text"
+                                                        label="Destination Address" 
+                                                        placeholder="City, State..." 
+                                                        value={destinationLocation} 
+                                                        onchange={handleDestinationLocationChange}                                                         
+                                                        onkeydown={hanldeOnDestinationLocationKeyDown}>
+                                    </lightning-input>
+                                        <template if:true={hideDestinationLocationResults}> 
+                                        <div id="myInputDesautocomplete-list" class="autocomplete-items">
+                                            <template for:each={predictions} for:item=prediction>
+                                                <div key={prediction.place_id} 
+                                                        onclick={handleDestinationGetPlaceDetails} 
+                                                        data-idex={index}
+                                                        data-name={prediction.place_id}>
+                                                    <span style="pointer-events: none;" class="location-item">{prediction.description}</span>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </template>
+                                </div>
+                            </lightning-button-group>
+                        </div>
+                        <div class="slds-col slds-size_2-of-12">
+                            <button style="margin-top: 22px;" class="slds-button slds-button_brand" onclick={handleGetDirection}>Get Directions</button>
+                        </div>                         
+                    </div>
+                    <br/>                   
+                </article>          
+            </div>
+        </div>
+        <div class="slds-grid slds-wrap" style="padding-top:15px;">
+            <div class="slds-col slds-size_1-of-1">  
+                <article class="slds-card" style="display: block;">
+                    <div class="slds-grid slds-wrap">                                              
+                        <div class="slds-col slds-size_12-of-12">
+                            <template if:true={rateList} >
+                                <div class="slds-grid slds-wrap rate-list" style="padding-top:15px;">
+                                    <template for:each={rateList} for:item="rateObj">                                        
+                                            <div key={rateObj.key} class="slds-col slds-size_3-of-12" style="padding: 5px;">  
+                                                <article class="slds-card">
+                                                    <div class="transporation-mode">
+                                                        {rateObj.transporationMode}
+                                                    </div>
+                                                    <div class="duration">
+                                                        {rateObj.duration}
+                                                    </div>
+                                                    <div class="distance">
+                                                        {rateObj.distance}
+                                                    </div>
+                                                    <div class="cost">
+                                                        {rateObj.cost}
+                                                    </div>
+                                                </article>
+                                            </div>                                    
+                                    </template>
+                                </div>
+                            </template>
+                        </div>                         
+                    </div>
+                    <br/>                   
+                </article>          
+            </div>
+        </div>
+
+    </div>
+
+</template>

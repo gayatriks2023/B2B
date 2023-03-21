@@ -1,0 +1,79 @@
+.autocomplete-items{
+    width: 100%;
+}   
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    /* border-top: none;
+    border-bottom: none; */
+    z-index: 99;
+    /* left: -43px; */
+    /* right: 0; */
+    /* margin-left: 43px; */
+    /* top: 56px; */
+}
+  
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+  
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+.origin-location{
+    width:360px;
+}
+.destination-location{
+    width:360px;
+}
+.container{
+    width: 100%;
+    padding:1rem;
+    background-color: white;
+}
+.main-title{
+    font-size:24px;
+    font-weight:bold;
+    text-align: center;
+    padding:10px;
+}
+
+.user-title{
+    font-size:14px;
+    font-weight:bold;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.transporation-mode{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    opacity: .4;
+}
+.duration{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+}
+.distance{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.cost{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rate-list .slds-card{
+    border: 1px solid lightgray;
+    padding: 20px;
+}

@@ -1,0 +1,201 @@
+{
+    "predictions": [
+        {
+            "description": "New York, NY, USA",
+            "matched_substrings": [
+                {
+                    "length": 8,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJOwg_06VPwokRYv534QaPC8g",
+            "reference": "ChIJOwg_06VPwokRYv534QaPC8g",
+            "structured_formatting": {
+                "main_text": "New York",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 8,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "NY, USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "New York"
+                },
+                {
+                    "offset": 10,
+                    "value": "NY"
+                },
+                {
+                    "offset": 14,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "New York Mills, MN, USA",
+            "matched_substrings": [
+                {
+                    "length": 8,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJ7VpAR1vYyVIR7hmQAX91ntk",
+            "reference": "ChIJ7VpAR1vYyVIR7hmQAX91ntk",
+            "structured_formatting": {
+                "main_text": "New York Mills",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 8,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "MN, USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "New York Mills"
+                },
+                {
+                    "offset": 16,
+                    "value": "MN"
+                },
+                {
+                    "offset": 20,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "New York State, USA",
+            "matched_substrings": [
+                {
+                    "length": 8,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJqaUj8fBLzEwRZ5UY3sHGz90",
+            "reference": "ChIJqaUj8fBLzEwRZ5UY3sHGz90",
+            "structured_formatting": {
+                "main_text": "New York State",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 8,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "New York State"
+                },
+                {
+                    "offset": 16,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "administrative_area_level_1",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "New York, IA, USA",
+            "matched_substrings": [
+                {
+                    "length": 8,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJD_qB3F8X6YcRDraFbXmLUD4",
+            "reference": "ChIJD_qB3F8X6YcRDraFbXmLUD4",
+            "structured_formatting": {
+                "main_text": "New York",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 8,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "IA, USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "New York"
+                },
+                {
+                    "offset": 10,
+                    "value": "IA"
+                },
+                {
+                    "offset": 14,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        },
+        {
+            "description": "New York Mills, NY, USA",
+            "matched_substrings": [
+                {
+                    "length": 8,
+                    "offset": 0
+                }
+            ],
+            "place_id": "ChIJ3QemtQBB2YkRpnQYzjMsqtA",
+            "reference": "ChIJ3QemtQBB2YkRpnQYzjMsqtA",
+            "structured_formatting": {
+                "main_text": "New York Mills",
+                "main_text_matched_substrings": [
+                    {
+                        "length": 8,
+                        "offset": 0
+                    }
+                ],
+                "secondary_text": "NY, USA"
+            },
+            "terms": [
+                {
+                    "offset": 0,
+                    "value": "New York Mills"
+                },
+                {
+                    "offset": 16,
+                    "value": "NY"
+                },
+                {
+                    "offset": 20,
+                    "value": "USA"
+                }
+            ],
+            "types": [
+                "locality",
+                "political",
+                "geocode"
+            ]
+        }
+    ],
+    "status": "OK"
+}
